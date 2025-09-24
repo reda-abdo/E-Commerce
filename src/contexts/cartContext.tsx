@@ -2,7 +2,6 @@
 "use client";
 
 import { apiServices } from "@/services/api";
-import { promises } from "dns";
 import { useSession } from "next-auth/react";
 import { createContext, Dispatch, ReactNode, SetStateAction, useEffect, useState } from "react";
 import toast from "react-hot-toast";

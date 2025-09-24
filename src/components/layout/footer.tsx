@@ -7,6 +7,7 @@ import {
   Mail,
   Phone,
   MapPin,
+  ShoppingCart,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
@@ -35,7 +36,7 @@ const footerSections = [
   {
     title: "About",
     links: [
-      { title: "About TechMart", href: "/about" },
+      { title: "About UniMart", href: "/about" },
       { title: "Careers", href: "/careers" },
       { title: "Press", href: "/press" },
       { title: "Investor Relations", href: "/investors" },
@@ -72,10 +73,10 @@ export function Footer() {
             <Link href="/" className="flex items-center space-x-2 mb-4">
               <div className="h-8 w-8 bg-primary rounded-lg flex items-center justify-center">
                 <span className="text-primary-foreground font-bold text-lg">
-                  T
+                  <ShoppingCart className="h-5 w-5" />
                 </span>
               </div>
-              <span className="font-bold text-xl">TechMart</span>
+              <span className="font-bold text-xl">UnihMart</span>
             </Link>
             <p className="text-muted-foreground mb-4 max-w-md">
               Your one-stop destination for the latest technology, fashion, and
@@ -95,7 +96,7 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Mail className="h-4 w-4" />
-                <span>support@techmart.com</span>
+                <span>support@unimart.com</span>
               </div>
             </div>
 
@@ -168,7 +169,7 @@ export function Footer() {
         {/* Bottom Footer */}
         <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 text-sm text-muted-foreground">
           <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4">
-            <p>&copy; 2024 TechMart. All rights reserved.</p>
+            <p>&copy; 2025 UniMart. All rights reserved.</p>
             <div className="hidden md:block">•</div>
             <div className="flex items-center space-x-4">
               <Link

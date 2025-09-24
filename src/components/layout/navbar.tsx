@@ -58,10 +58,10 @@ export function Navbar() {
           <Link href="/" className="flex items-center pl-2 space-x-1">
             <div className="h-8 w-8 bg-primary rounded-lg flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-lg">
-                T
+                <ShoppingCart className="h-5 w-5" />
               </span>
             </div>
-            <span className="font-bold text-xl">TechMart </span>
+            <span className="font-bold text-xl">UnihMart </span>
           </Link>
 
           {/* Desktop Navigation */}
